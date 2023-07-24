@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-&t@fc_2v-&+5eag-jwg&sj+&+r_s@y$7!$&!a!o+dr_im9pejd'
+SECRET_KEY = 'django-insecure-j=0z7*3&+811@ez+krbe(4-v+@3+0rj35$5u7le^-n+t*fp+f4'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'website',
+    'website'
 ]
 
 MIDDLEWARE = [
@@ -77,10 +77,10 @@ WSGI_APPLICATION = 'dcrm.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'romedb',
+        'NAME':'dcrmdb',
         'USER':'root',
-        'PASSWORD':'Root@123',
-        'HOST':'localhost'
+        'HOST':'localhost',
+        'PASSWORD':'Root@123'
     }
 }
 
