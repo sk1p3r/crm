@@ -80,7 +80,7 @@ DATABASES = {
         'NAME':'dcrmdb',
         'USER':'root',
         'HOST':'localhost',
-        'PASSWORD':'Root@123'
+        'PASSWORD':'Root@123',
     }
 }
 
